@@ -140,6 +140,7 @@ tr:nth-child(even) {
 }
 
 .form-field {
+  position: relative;
   width: 100%;
   border: 0;
   border-bottom: 2px solid #9b9b9b;
@@ -149,6 +150,7 @@ tr:nth-child(even) {
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
+  z-index: 1;
 }
 .form-field::placeholder {
   color: transparent;
@@ -166,6 +168,7 @@ tr:nth-child(even) {
   transition: 0.2s;
   font-size: 1rem;
   color: #9b9b9b;
+  z-index: 0;
 }
 
 .form-field:focus {
